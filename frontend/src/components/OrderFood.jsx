@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CartContext } from '../App';
-import OrderNavbar from './OrderNavbar';
+import OrderNavbar from './OrderNavBar';
 import PersonalizedRequestPopup from './PersonalizedRequestPopup';
 
 function OrderFood() {

@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { CartContext } from '../App';
-import OrderNavbar from './OrderNavbar';
+import OrderNavbar from './OrderNavBar';
 import './CategoryPage.css';
 
 function CategoryPage() {
